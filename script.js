@@ -26,7 +26,7 @@ if (visitedTimes !== null) {
   visitedCheck.textContent = visitedTimes + ' times'
   window.localStorage.setItem('visitedtimes', visitedTimes)
 } else {
-  visitedTimes = 0
+  visitedTimes = 1
   visitedCheck.textContent = visitedTimes + ' time'
   window.localStorage.setItem('visitedtimes', visitedTimes)
 }
